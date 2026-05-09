@@ -1,0 +1,11 @@
+{
+  "name": "db-test-vercel",
+  "version": "1.0.0",
+  "description": "Test app to verify PostgreSQL connection from Vercel",
+  "scripts": {
+    "dev": "node api/test-db.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
