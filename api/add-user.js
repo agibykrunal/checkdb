@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'application/json');
 
   if (req.method === 'POST') {
-    // ── ADD a 
+    // ── ADD a
     try {
       const { name, email } = req.body;
 
