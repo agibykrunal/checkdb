@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
     }
 
   } else if (req.method === 'GET') {
-    // ── GET all use
+    // ── GET all us
     try {
       const result = await pool.query('SELECT * FROM app_users ORDER BY id');
       res.status(200).json({
